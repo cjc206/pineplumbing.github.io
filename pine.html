@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Washington Pine Plumbing - Omar’s Crew</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="./WASHINGTON PINE LOGO.jpeg">
+</head>
+<body>
+    <!-- Header with Omar’s welcome and logo as background -->
+    <header class="header">
+        <div class="header-content">
+            <h1>Washington Pine Plumbing</h1>
+            <p>Fixing pipes around here since 2012</p>
+            
+        </div>
+        <nav class="nav-bar">
+            <a href="#home">Home</a> | 
+            <a href="#services">What We Fix</a> | 
+            <a href="#omarstory">Omar’s Story</a> | 
+            <a href="#reviews">Folks Love Us</a> | 
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </header>
+
+    <!-- Main content -->
+    <main class="main-content">
+        <!-- Home section -->
+        <section id="home">
+            <h2>Welcome to Washington Pine Plumbing!</h2>
+            <p>Hey there! I’m Omar, and this is my company, Washington Pine Plumbing. Been at it for over 20 years now, keeping water where it belongs and drains running free. Whether it’s a dripping tap waking you up at night or a busted pipe flooding your basement, me and my crew—my son Rey and our buddy Carlos—got your back. We’re local, we’re honest, and we don’t mess around when it comes to fixing things right.</p>
+            <p>No big call centers here—just us. Call us anytime at 253-686-6580!</p>
+        </section>
+
+        <!-- Services section -->
+        <section id="services">
+            <h2>What We Do</h2>
+            <p>We tackle all kinds of plumbing headaches—here’s the rundown:</p>
+            <ul>
+                <li>Service Calls - Burst pipes, drippy faucets, clogged toilets/drains—you name it.</li>
+                <li>Water Heaters - Install new ones, service old ones—hot showers are a must!</li>
+                <li>New Construction - Anything from custom homes to house additions.</li>
+                <li>Remodels - We can plumb your dream kitchen or bath!</li>
+            </ul>
+            <p>Not sure if we handle it? Give me a ring at 253-686-6580—I’ll let you know!</p>
+        </section>
+
+        <!-- Omar’s story -->
+        <section id="omarstory">
+            <h2>Omar’s Story</h2>
+            <p>Back in 2001, I started this gig with an old van and a toolbox my dad gave me. Born and raised in Tacoma, I’ve always liked figuring out how stuff works. After years wrenching for other folks, I thought, why not do it my way? So, Washington Pine Plumbing was born in 2012. It’s been a wild ride, but I love serving this community!</p>
+        </section>
+
+        <!-- Reviews -->
+        <section id="reviews">
+            <h2>What People Say</h2>
+            <p>"Omar came out when our water main line had a leak and saved us a hefty water bill!" - Jenny T., Lakewood, WA</p>
+            <p>"Fixed my ancient sink in 20 minutes, and was kind enough to tighten a loose faucet handle free of charge." - Mr. Patel, Tacoma, WA</p>
+            <p>"Omar’s a good kid, helped me carry groceries in after fixing the toilet!" - Edna W., Burien, WA</p>
+        </section>
+
+        <!-- Contact section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <div class="contact-details">
+                <p><strong>Phone:</strong> 253-686-6580 (Anytime, seriously!)</p>
+                <p><strong>Email:</strong> Washingtonpine25@gmail.com</p>
+                <p><strong>Address:</strong> 6019 Pine St, Tacoma, WA 98409</p>
+                <p><strong>Hours:</strong> Office 9-5 Mon-Fri, Emergencies 24/7</p>
+            </div>
+            <p>Swing by if you’re nearby—door’s open, coffee’s on. Or use this form:</p>
+            <form action="mailto:omar@washingtonpineplumbing.com" method="post" enctype="text/plain">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">What’s Up?</label><br>
+                <textarea id="message" name="message" rows="5" required>Tell me about your plumbing problem!</textarea><br>
+                <input type="submit" value="Send to Omar">
+                <input type="reset" value="Start Over">
+            </form>
+        </section>
+    </main>
+
+    <!-- Tips section - fixed and closable -->
+    <input type="checkbox" id="hide-tips" checked>
+    <div id="tips">
+        <h2>Omar’s Plumbing Tricks</h2>
+        <p>Learned these the hard way—hope they help you out:</p>
+        <ul>
+            <li>Know Where Your Water Shut-Off Is - In case a pipe bursts and your basement’s turning into a swimming pool!</li>
+            <li>Grease or Oil in the Sink? - Don’t do it, dump it in a can instead!</li>
+            <li>Winterize Your Hose Bibs - If it has an individual shut-off, turn it off or insulate it with a cover!</li>
+        </ul>
+        <p>Got a tip of your own? Email me—I might stick it up here!</p>
+        <label for="hide-tips" class="close-tips">X</label>
+    </div>
+    <label for="hide-tips" class="tips-tab">Tips</label>
+
+    <!-- Footer, Omar’s sign-off -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Washington Pine Plumbing - © 2025 Omar & Crew</p>
+            <p>Keeping the Seattle-Tacoma area flowing - Since 2012 - Thanks for stopping by!</p>
+        </div>
+    </footer>
+</body>
+</html>
